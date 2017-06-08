@@ -650,6 +650,7 @@ html {
   background: #f93c4f;
   padding-top: 0.28rem;
   color: white;
+  font-size: 0.25rem;
 }
 .man .money .mfooter a p {
   font-size: 0.32rem;
@@ -683,6 +684,7 @@ html {
   width: 1.3rem;
   height: 1.3rem;
   background: none;
+  margin-left: 0.38rem;
 }
 .man .monsection .monone dl dd p {
   padding-top: 0.24rem;
