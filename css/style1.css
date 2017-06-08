@@ -767,6 +767,9 @@ html {
   font-size: 0.26rem;
   padding: 0 0.2rem;
 }
+.ques .minner .you {
+  line-height: 1.4rem;
+}
 .ques .minner a {
   display: inline-block;
   width: 40%;
