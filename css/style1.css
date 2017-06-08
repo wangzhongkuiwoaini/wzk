@@ -1,0 +1,783 @@
+@import url(m_style.css);
+.man,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+.man {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.man header {
+  width: 100%;
+  height: 4.74rem;
+  background: none;
+}
+.man header .headerone {
+  width: 100%;
+  height: 3.14rem;
+  background: none;
+  background: url("../img/image1/e.png") no-repeat;
+  background-size: 100% auto;
+}
+.man header .headerone .dl dl {
+  text-align: center;
+}
+.man header .headerone .dl dl dt img {
+  width: 1.56rem;
+  height: auto;
+  background: none;
+  padding-top: 0.36rem;
+}
+.man header .headerone .dl dl dd {
+  padding: 0.38rem 0;
+  color: white;
+}
+.man header .headerone .dl dl dd a {
+  font-size: 0.31rem;
+  color: white;
+}
+.man header .headerone .res dl {
+  text-align: center;
+}
+.man header .headerone .res dl dt img {
+  width: 1.56rem;
+  height: auto;
+  background: none;
+  padding-top: 0.36rem;
+}
+.man header .headerone .res dl dd {
+  color: white;
+  margin-top: -0.4rem;
+}
+.man header .headerone .res dl dd a {
+  font-size: 0.31rem;
+  color: white;
+  display: inline-block;
+  width: 2.8rem;
+  height: 0.5rem;
+  background: none;
+  background: url("../img/a.png") no-repeat 2.4rem;
+  background-size: 0.4rem 0.4rem;
+}
+.man header .headerone .res dl dd p {
+  display: inline-block;
+  width: 2.52rem;
+  height: 0.52rem;
+  background: #fedab4;
+  color: #ff9b46;
+  line-height: 0.52rem;
+  font-size: 0.26rem;
+  border-radius: 0.1rem;
+}
+.man header .headerone .pic {
+  position: absolute;
+  top: 0.21rem;
+  right: -0.17rem;
+}
+.man header .headerone .pic img {
+  width: 0.46rem;
+  height: auto;
+  background: none;
+  padding-right: 0.5rem;
+}
+.man header .headerone .pic p {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: #f9384b;
+  display: block;
+  position: absolute;
+  top: -0.1rem;
+  right: 1.4rem;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+}
+.man header .headerone .score {
+  width: 1.9rem;
+  height: 0.45rem;
+  background: none;
+  background: url("../img/image1/3.png") no-repeat;
+  background-size: 1.9rem auto;
+  position: absolute;
+  top: 1.2rem;
+  right: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.man header .headerone .score span {
+  line-height: 0.45rem;
+  color: white;
+  padding: 0 0.14rem;
+}
+.man header .headerone .score span a {
+  width: 0.97rem;
+  height: 0.3rem;
+  background: none;
+  display: inline-block;
+  color: white;
+  -webkit-box-flex: 1;
+  background: url("../img/image1/25.png") no-repeat 0.7rem 0.1rem;
+  background-size: 0.2rem 0.2rem;
+}
+.man header .headertwo {
+  width: 100%;
+  height: 1.53rem;
+  background: none;
+  margin-top: 0.06rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.man header .headertwo dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  background: url("../img/image1/21.png") no-repeat right;
+}
+.man header .headertwo dl dt {
+  width: 0.6rem;
+  height: 0.45rem;
+  background: none;
+  display: inline-block;
+}
+.man header .headertwo dl dt.dt1 {
+  background: url("../img/image1/22.png") no-repeat;
+  background-size: 0.6rem auto;
+}
+.man header .headertwo dl dt.dt3 {
+  background: url("../img/image1/6.png") no-repeat;
+  background-size: 0.6rem auto;
+}
+.man header .headertwo dl dt.dt2 {
+  width: 1rem;
+}
+.man header .headertwo dl dd {
+  padding-top: 0.17rem;
+  padding-left: 0.1rem;
+}
+.man section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+  overflow: auto;
+}
+.man section .box {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  margin-bottom: 0.02rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 0.85rem;
+}
+.man section .box span {
+  font-size: 0.27rem;
+}
+.man section .box p {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: #ff0000;
+  background: url("../img/a1.png") no-repeat;
+  background-size: 0.14rem 0.25rem;
+  margin-top: 0.3rem;
+  margin-right: 0.2rem;
+}
+.man section .box.b1 {
+  margin-top: 0.18rem;
+}
+.man section .box rem {
+  -webkit-box-flex: 1;
+  display: block;
+  font-size: 0.25rem;
+  color: #cccccc;
+  padding-left: 0.2rem;
+}
+.man section .box b {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #ff0000;
+  text-align: center;
+  margin-top: -0.05rem;
+  border-radius: 50%;
+  color: white;
+  line-height: 0.4rem;
+}
+.man section .box h3 {
+  display: block;
+  width: 1.37rem;
+  height: 0.56rem;
+  background: #bababa;
+  margin-right: 0.15rem;
+  text-align: center;
+  color: white;
+  font-size: 0.30rem;
+  font-weight: normal;
+  line-height: 0.56rem;
+  margin-top: 0.15rem;
+}
+.man section .box .box1 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/7.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box2 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/8.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box3 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/9.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box4 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/10.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box5 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/11.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box6 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/12.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box7 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/111.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box8 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/13.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box9 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/14.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box10 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/15.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box11 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/16.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man section .box .box12 {
+  display: block;
+  width: 0.93rem;
+  height: 0.85rem;
+  background: none;
+  background: url("../img/image1/17.png") no-repeat 0.4rem;
+  background-size: 0.35rem 0.4rem;
+}
+.man footer {
+  width: 100%;
+  height: 0.97rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.man footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+.man footer dl dt img {
+  width: 0.45rem;
+  height: 0.45rem;
+  background: none;
+}
+.man footer dl dd {
+  color: #989898;
+  padding-top: 0.02rem;
+}
+.man footer dl:hover dd {
+  color: red;
+}
+.man {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.man .outheader {
+  width: 100%;
+  height: 0.88rem;
+  background: #f93c4f;
+  line-height: 0.88rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.man .outheader a img {
+  width: 0.4rem;
+  height: 0.32rem;
+  background: none;
+  padding-left: 0.4rem;
+}
+.man .outheader span {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: white;
+  font-size: 0.3rem;
+}
+.man .outsection {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+  overflow: auto;
+}
+.man .outsection .outone {
+  width: 100%;
+  height: 0.82rem;
+  background: #ffffff;
+  margin-bottom: 0.03rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 0.82rem;
+}
+.man .outsection .outone.outo {
+  margin-top: 0.15rem;
+}
+.man .outsection .outone.au {
+  width: 100%;
+  height: 1.2rem;
+  background: #ffffff;
+  line-height: 1.2rem;
+  border-bottom: 1px solid #cccccc;
+}
+.man .outsection .outone.au img {
+  width: 0.97rem;
+  height: 0.98rem;
+  background: none;
+  margin-right: 0.3rem;
+}
+.man .outsection .outone.ah {
+  width: 100%;
+  height: 0.9rem;
+  background: #ffffff;
+  margin-bottom: 0;
+}
+.man .outsection .outone.ah span {
+  color: #b0b0b0;
+  margin-right: 0.4rem;
+}
+.man .outsection .outone.aa p {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: #ffffff;
+  background: none;
+  margin-top: -1rem;
+  margin-right: 0.7rem;
+  color: #646464;
+  font-size: 0.30rem;
+}
+.man .outsection .outone a {
+  display: block;
+  -webkit-box-flex: 1;
+  font-size: 0.30rem;
+  padding-left: 0.4rem;
+}
+.man .outsection .outone span {
+  font-size: 0.25rem;
+}
+.man .outsection .outone p {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: #ffffff;
+  background: url("../img/a1.png") no-repeat;
+  background-size: 0.14rem 0.25rem;
+  margin-top: 0.25rem;
+  margin-right: 0.35rem;
+}
+.man .outsection .outout {
+  width: 100%;
+  height: 0.91rem;
+  background: none;
+  margin-top: 2.54rem;
+}
+.man .outsection .outout .outbottom {
+  width: 6.7rem;
+  height: 0.91rem;
+  background: #f9384b;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.35rem;
+  top: 50%;
+  margin-top: 2rem;
+  border-radius: 0.1rem;
+}
+.man .outsection .outout .outbottom a {
+  font-size: 0.31rem;
+  text-align: center;
+  display: block;
+  color: white;
+  line-height: 0.91rem;
+}
+.man .outsection .texta {
+  display: inline-block;
+  width: 6.7rem;
+  height: 0.91rem;
+  background: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.35rem;
+  border-radius: 0.1rem;
+  margin-top: 0.82rem;
+  font-size: 0.30rem;
+}
+.man .outsection .chuan {
+  display: inline-block;
+  width: 6.7rem;
+  height: 0.91rem;
+  background: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.35rem;
+  margin-top: 2.8rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #cccccc;
+  line-height: 0.91rem;
+}
+.man .outsection .chuan input {
+  width: 5.3rem;
+  height: 0.6rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 0.26rem;
+}
+.man .outsection .chuana {
+  display: inline-block;
+  width: 6.7rem;
+  height: 0.91rem;
+  background: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.35rem;
+  margin-top: 3.7rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid red;
+  line-height: 0.91rem;
+}
+.man .outsection .chuana input {
+  width: 5.3rem;
+  height: 0.6rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 0.26rem;
+}
+.man .outsection .chuanaa {
+  display: inline-block;
+  width: 6.7rem;
+  height: 0.91rem;
+  background: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.35rem;
+  margin-top: 4.6rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #cccccc;
+  line-height: 0.91rem;
+}
+.man .outsection .chuanaa input {
+  width: 5.3rem;
+  height: 0.6rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 0.26rem;
+}
+.man .outsection .people {
+  width: 100%;
+  height: 1.28rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.man .outsection .people dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  margin-top: 0.1rem;
+  margin-left: 0.4rem;
+}
+.man .outsection .people dl dt img {
+  width: 1.07rem;
+  height: 1.07rem;
+  background: none;
+}
+.man .outsection .people dl dd p {
+  padding-top: 0.26rem;
+  color: #999999;
+  padding-left: 0.02rem;
+  font-size: 0.23rem;
+}
+.man .outsection .people dl dd p img {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: none;
+}
+.man .outsection .people dl dd span {
+  color: #999999;
+  padding-left: 0.36rem;
+  font-size: 0.23rem;
+}
+.man .outsection .people a .abc {
+  width: 1.01rem;
+  height: 0.5rem;
+  margin-top: 0.33rem;
+  margin-right: 0.4rem;
+}
+.man .outsection .people.peo {
+  border-bottom: 1px solid #d9d9d9;
+}
+.man .money .mheader {
+  width: 100%;
+  height: 0.87rem;
+  background: #f93c4f;
+  line-height: 0.88rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.man .money .mheader a img {
+  width: 0.4rem;
+  height: 0.32rem;
+  background: none;
+  padding-left: 0.4rem;
+}
+.man .money .mheader .ming {
+  color: white;
+  font-size: 0.3rem;
+  padding-right: 0.42rem;
+}
+.man .money .mheader span {
+  display: block;
+  -webkit-box-flex: 1;
+  color: white;
+  font-size: 0.3rem;
+}
+.man .money .mheader img {
+  width: 0.02rem;
+  height: 0.37rem;
+  background: none;
+  padding: 0 0.1rem;
+}
+.man .money .msection {
+  width: 100%;
+  height: 2.44rem;
+  background: #f93c4f;
+}
+.man .money .msection span {
+  font-size: 0.32rem;
+  color: #fc969e;
+  display: inline-block;
+  padding-top: 0.37rem;
+  padding-left: 1.13rem;
+}
+.man .money .msection p span {
+  font-size: 0.56rem;
+  color: white;
+  padding-top: 0.32rem;
+}
+.man .money .msection p a {
+  font-size: 0.32rem;
+  color: #fc969e;
+  padding: 0px 0.32rem;
+  text-decoration: underline;
+}
+.man .money .mfooter {
+  width: 100%;
+  height: 1.3rem;
+  background: #f93c4f;
+  border-top: 1px solid #FC969E;
+  position: relative;
+}
+.man .money .mfooter a {
+  display: inline-block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  width: 49%;
+  height: 1.02rem;
+  background: #f93c4f;
+  padding-top: 0.28rem;
+  color: white;
+}
+.man .money .mfooter a p {
+  font-size: 0.32rem;
+}
+.man .money .mfooter img {
+  position: absolute;
+  top: 0;
+  right: 1.26rem;
+  width: 1.28rem;
+  height: 1.3rem;
+  background: none;
+}
+.man .monsection {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.man .monsection .monone {
+  width: 100%;
+  height: 1.32rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e5e5e5;
+}
+.man .monsection .monone dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+}
+.man .monsection .monone dl dt img {
+  width: 1.3rem;
+  height: 1.3rem;
+  background: none;
+}
+.man .monsection .monone dl dd p {
+  padding-top: 0.24rem;
+  padding-left: 0.24rem;
+}
+.man .monsection .monone dl dd span {
+  padding-left: 0.24rem;
+  color: #999999;
+}
+.man .monsection .monone a {
+  display: block;
+  width: 1.1rem;
+  height: 0.46rem;
+  background: none;
+  border: 1px solid #f94d5d;
+  text-align: center;
+  line-height: 0.46rem;
+  margin-top: 0.42rem;
+  margin-right: 0.36rem;
+  color: #f94d5d;
+}
+.man .monsection .monone.ac a {
+  display: block;
+  width: 1.1rem;
+  height: 0.46rem;
+  background: none;
+  border: 1px solid #adadad;
+  text-align: center;
+  line-height: 0.46rem;
+  margin-top: 0.42rem;
+  margin-right: 0.36rem;
+  color: #adadad;
+}
+.ques {
+  width: 100%;
+  height: 100%;
+  background: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+.ques .minner {
+  width: 4.5rem;
+  height: 2.5rem;
+  background: #ffffff;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.25rem;
+  margin-top: -1.25rem;
+  -webkit-box-align: center;
+}
+.ques .minner input {
+  border: none;
+  text-align: center;
+  font-size: 0.24rem;
+  outline: none;
+}
+.ques .minner span {
+  display: inline-block;
+  width: 4.5rem;
+  height: 1.4rem;
+  background: none;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  margin-top: 0.2rem;
+  font-size: 0.25rem;
+  font-size: 0.26rem;
+}
+.ques .minner span b {
+  font-weight: normal;
+  font-size: 0.26rem;
+  padding: 0 0.2rem;
+}
+.ques .minner a {
+  display: inline-block;
+  width: 40%;
+  height: 0.85rem;
+  background: none;
+  text-align: center;
+  line-height: 0.85rem;
+  margin-left: 0.25rem;
+  font-size: 0.28rem;
+}
+.ques .minner p {
+  display: inline-block;
+  width: 3.54rem;
+  height: 0.82rem;
+  background: none;
+  margin-left: 0.48rem;
+  border-bottom: 1px solid #F3F3F3;
+  line-height: 0.82rem;
+  font-size: 0.28rem;
+}
