@@ -452,7 +452,6 @@ html {
   top: 50%;
   margin-top: 2rem;
   border-radius: 0.1rem;
-  z-index: 99999;
 }
 .man .outsection .outout .outbottom a {
   font-size: 0.31rem;
@@ -743,6 +742,7 @@ html {
   left: 50%;
   margin-left: -2.25rem;
   margin-top: -1.25rem;
+  z-index: 9999;
   -webkit-box-align: center;
 }
 .ques .minner input {
