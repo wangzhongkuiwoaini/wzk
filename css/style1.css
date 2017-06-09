@@ -62,7 +62,7 @@ html {
   width: 2.8rem;
   height: 0.5rem;
   background: none;
-  background: url("../img/a.png") no-repeat 2.4rem;
+  background: url("../img/a.png") no-repeat 2.4rem -0.02rem;
   background-size: 0.4rem 0.4rem;
 }
 .man header .headerone .res dl dd p {
@@ -155,6 +155,7 @@ html {
 }
 .man header .headertwo dl dt.dt2 {
   width: 1rem;
+  font-size: 0.28rem;
 }
 .man header .headertwo dl dd {
   padding-top: 0.17rem;
